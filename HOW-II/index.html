@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang=“pt-br”>
+<head>
+	<meta charset="UTF-8"/>
+	<!--Acesso arquivo CSS-->
+	<link rel="stylesheet" href="./css/style.css"/>
+	<!--Ícone-->
+	<link rel="icon" href="./img/caseicon.png" />
+	<!--Título-->
+	<title>Case Builds</title>
+	<!--Framework Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	
+	<!--Cabeçalho-->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<!--Logo-->
+			<a class="navbar-brand" href="#home"><img src="./img/casebuildslogo.png" alt="Case Builds" tittle="Case Builds" width="150px;"/></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+			</button>
+			<!--Links Cabeçalho-->
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" >
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="#home">Home</a>
+					<a class="nav-item nav-link" href="#sobre">Sobre</a>
+					<a class="nav-item nav-link" href="#galeria">Galeria de Criações</a>
+					<a class="nav-item nav-link" href="#contato">Contato</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!--Home-->
+	<section id="parallax-1">
+		<div id="home"></div>
+		<div class="container">
+			<div class="row">
+				<!--Texto HOME-->
+				<div class="col">
+					<h1>Case Builds: Galeria de Case Modding</h1>
+					<p>Portifólio desenvolvido para a atividade de Hands on Work II do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade do Vale do Itajaí (UNIVALI). Esta proposta consiste na criação de um site para servir de portifólio sobre Case Modding.</p>
+					<a class="button" href="#sobre">saiba mais</a>
+				</div>
+				<!--Imagem HOME-->
+				<div class="col">
+					<img class="imagem_home" src="./img/img-home.png" alt="Exemplo casemod" title="Exemplo casemod" width="500" height="500"/>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Sobre-->
+	<section id="parallax-2">
+		<div id="sobre"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<!--Texto Sobre-->
+					<div class="text-sobre">
+						<h2 class="light">Case Modding</h2>
+						<p class="light"><strong>Casemod</strong> é a modificação de um computador. Algumas dessas modificações são extremamente simples, mas outras não. Temos desde a inserção de um cooler a mais no gabinete, até a montagem de computadores extraordinários.
+						<br><br>
+						Muitas das modificações feitas em um computador podem ser executadas por qualquer pessoa, sem a necessidade de uma grande equipe e de equipamentos tão caros.
+						<br><br>
+						<strong>Modificações estéticas:</strong> consistem na mudança do visual do seu PC. Podem ser usados adesivos, LED para iluminação, pinturas personalizadas ou mesmo construir um gabinete.  Também é possível fazer mudança em periféricos como mouse, teclado, monitor, etc.
+						<br>
+						<strong>Modificações de performance:</strong> consistem nas mudanças que influenciam na performance do computador. Geralmente estão ligadas à refrigeração do gabinete, para que posssa receber hardwares de alto nível. Essas modificações são: placas de vídeo offboard em SLI ou crossfire, coolers de ar, Water cooler entre outros.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Galeria-->
+	<section id="parallax-3">
+		<div id="galeria"></div>
+		<div class="container">
+			<div class="row">
+				<!--Imagens Galeria-->
+				<div class="imagens">
+					<img class="imagem" src="./img/img-1.jpg" alt="Exemplo casemod" title="Exemplo casemod" width="550" height="550"/>
+					<img class="imagem" src="./img/img-2.jpg" alt="Exemplo casemod" title="Exemplo casemod" width="550" height="550"/>
+					<img class="imagem" src="./img/img-3.jpg" alt="Exemplo casemod" title="Exemplo casemod" width="550" height="550"/>
+					<img class="imagem" src="./img/img-4.jpg" alt="Exemplo casemod" title="Exemplo casemod" width="550" height="550"/>
+					<img class="imagem" src="./img/img-5.jpg" alt="Exemplo casemod" title="Exemplo casemod" width="550" height="550"/>
+					<img class="imagem" src="./img/img-6.jpg" alt="Exemplo casemod" title="Exemplo casemod" width="550" height="550"/>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Rodape-->
+	<footer id="parallax-4">
+		<div id="contato"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="fale-conosco">
+						<h2>Fale Conosco</h2>
+						<!--Formsubmit permite conectar o formulátio HTML com um endpoint online-->
+						<form action="https://formsubmit.co/7ecbac27e23817830f0aa0a67749a7ed" method="POST">
+							<!--Formulário Fale Conosco-->
+							<div class="form-group">
+								<input type="name" class="form-control" id="nome" name="Nome" placeholder="Nome" required>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="E-mail" required>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="mensagem" name="Mensagem" rows="3" placeholder="Mensagem" required></textarea>
+							</div>
+							<!--Botão para enviar mensagem-->
+							<button type="submit" id="btn-enviar" class="btn btn-enviar">Enviar</button>
+							<input type="hidden" name="_captcha" value="false">
+							<input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<!--Acesso JS-->
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

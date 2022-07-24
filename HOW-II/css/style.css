@@ -1,0 +1,185 @@
+header{
+	width: 100%;
+	margin-top: 0px;
+	position: fixed;
+	background-color: rgb(30, 30, 30);
+	z-index: 999;
+}
+h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+	font-weight: 800 !important;
+	font-size: 40px !important;
+	line-height: 1.5em !important;
+}
+h2{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+	font-weight: 900 !important;
+	font-size: 38px !important;
+	color: rgb(250, 250, 250)!important;
+	margin-bottom: 20px !important;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(100, 100, 100);
+	font-size: 18px;
+	line-height: 2.2em;
+	font-weight: 600;
+	margin-bottom: 25px!important;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+	color: rgb(250, 250, 250) !important;
+}
+
+/*Barra de navegação*/
+.navbar{
+	background-color: rgb(30, 30, 30) !important;
+}
+
+/*Botão "Saiba Mais" HOME*/
+.button{
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 1.7em;
+	border-width: 0px;
+	border-radius: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: rgb(200, 30, 10);
+	padding: 15px 15px 15px 15px;
+	box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);	
+}
+.button:hover{
+	background-color: rgb(200, 30, 10);
+}
+
+/*Botão "Enviar" Rodapé*/
+.btn-enviar {
+	font-size: 20px !important;
+	color: #ffffff !important;
+	line-height: 1.7em !important;
+	border-width: 0px !important;
+	border-radius: 3px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	background-color: rgb(200, 30, 10) !important;
+	padding: 10px 15px 10px 15px !important;
+	box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3) !important;
+	float: right;
+}
+.btn-enviar:hover{
+	background-color: rgb(200, 30, 10) !important;
+}
+
+/*Texto sobre Case Modding*/
+.text-sobre{
+	width: 100%;
+	margin-top: -70px;
+	text-align: center;
+}
+
+/*Fale conosco Rodapé*/
+.fale-conosco{
+	width: 60%;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center
+}
+
+/*Formulário contato*/
+.form-control{
+	resize: none;
+}
+
+/*Cores texto*/
+.light{
+	color: rgb(250, 250, 250);
+}
+
+/*Cores texto*/
+.dark{
+	color: rgb(25, 25, 25) !important;
+	text-align: center;
+}
+
+/*Ajuste colunas*/
+.col{
+	float:right; 
+	margin-top: 15%;
+	margin-right:10px; 
+	margin-left:10px; 
+	margin-bottom:5px;
+}
+
+/*Imagens galeria*/
+.imagens {
+	margin-top: 100px;
+    position: relative;
+}
+
+/*Imagens galeria*/
+.imagem {
+    margin-left: 1px;
+    margin-right: 10px;
+    padding-bottom: 0%;
+    padding-top: 1px;
+    padding-left: 1px;
+    max-width: 100%;
+    width: 50%;
+    margin-inline: -2px;
+}
+
+/*Imagem HOME*/
+.imagem_home{
+	float:right; 
+	margin-top: -10%;
+	margin-right:10px; 
+	margin-left:10px; 
+	margin-bottom:5px;
+}
+
+/*Paralaxe HOME*/
+#parallax-1{
+	background-image: url("../img/background-1.png");
+	height: 750px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Paralaxe Sobre*/
+#parallax-2{
+	background-image: url("../img/background-2.png");
+	height: 800px;
+	background-color: rgb(28, 28, 28);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Paralaxe Galeria de Criações*/
+#parallax-3{
+	background-image: url("../img/background-1.png");
+	height: 1850px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Paralaxe Contato*/
+#parallax-4{
+	background-image: url("../img/background-2.png");
+	height: 650px;
+	background-color: rgb(28, 28, 28);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
